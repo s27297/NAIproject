@@ -44,14 +44,13 @@ https://github.com/s27297/projektTBK
 
 #  In the following text you can find all needed actions
 
-# to run script1.py you need to do following actions
-# To run python code in scripts you need to install 5 libriaries
-# scikit-learn,nltk,pandas,flask,flask-cors
-# !pip install scikit-learn
-# !pip install nltk
-# !pip install pandas
-# !pip install flask
-# !pip install flask-cors
+# to run script1.py you need to install 3 libraries:
+# pip install scikit-learn
+# pip install nltk
+# pip install pandas
+# to run script.py you also need 2 libraries:
+# pip install flask
+# pip install flask-cors
 
 
 # models to classify:
