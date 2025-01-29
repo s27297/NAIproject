@@ -54,6 +54,84 @@ precision= 0.5
 recall= 0.3829787234042553
 accuracy= 0.53
 
+# Comment Rewriter
+
+This is a simple script that interacts with the Ollama API to rewrite comments in a more polite way using the Mistral 7B model.
+
+## Requirements
+
+- Python 3.7+
+- Ollama installed and running locally
+- Internet connection (for downloading the Mistral model)
+
+## Installation
+
+### 1. Download and Install Ollama
+
+Ollama is required to run the Mistral model locally. You can download it from:
+
+- [Ollama official website](https://ollama.ai)
+
+After downloading, follow the installation instructions for your operating system.
+
+### 2. Run Ollama and Download the Model
+
+Once Ollama is installed, open a terminal and run:
+
+```sh
+ollama pull mistral
+```
+
+This command will download the Mistral model, which is required for processing the text.
+
+### 3. Install Python Dependencies
+
+Ensure you have Python installed. Then, install the required dependencies:
+
+```sh
+pip install requests
+```
+
+### 4. Start the Ollama Server
+
+Run Ollama in the background to handle API requests:
+
+```sh
+ollama serve
+```
+
+### 5. Run the Script
+
+Now you can run the script:
+
+```sh
+python comment_rewriter.py
+```
+
+## Usage
+
+- The script will prompt you to enter a comment.
+- It will then send the comment to the Ollama API and return a more polite rewording.
+- Type `exit` to quit the program.
+
+## Troubleshooting
+
+- If you encounter connection errors, ensure Ollama is running by checking:
+  ```sh
+  ps aux | grep ollama
+  ```
+- If the Mistral model is not found, try re-downloading it:
+  ```sh
+  ollama pull mistral
+  ```
+- Ensure your API server is accessible at `http://localhost:11434`.
+
+## License
+
+This project is open-source and free to use.
+
+
+
 # BagOfWords:
 precision= 0.6759259259259259
 recall= 0.5140845070422535
