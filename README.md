@@ -31,4 +31,5 @@ Projekt ten ma na celu dostarczenie użytkownikom wygodnego narzędzia do popraw
 # !pip install scikit-learn
 # !pip install nltk
 # !pip install pandas
-
+# !pip install flask
+# !pip install flask-cors
