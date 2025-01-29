@@ -13,11 +13,11 @@ from nltk.classify import NaiveBayesClassifier
 from sklearn.naive_bayes import MultinomialNB
 import nltk.classify.util
 
-# nltk.download('twitter_samples')
-# nltk.download('stopwords')
-# nltk.download('punkt')
-# nltk.download('wordnet')
-# nltk.download('punkt_tab')
+nltk.download('twitter_samples')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('punkt_tab')
 
 
 df=pd.read_csv('youtoxic_english_1000(2).csv',usecols=[2,15])
