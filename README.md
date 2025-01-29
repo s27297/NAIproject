@@ -1,4 +1,12 @@
 # NAIproject
+to connect to application you should run tow projects in webstorm which can be found by links 
+https://github.com/s27297/projektTFN
+https://github.com/s27297/projektTBK
+ and start database on mongodb on Port 27017:27017 but this canspend a lot of time
+ also you need to run script,py in this repositorium
+
+if you want to test only algoritm yo can download project and run script1.py
+
 ```
 Opis projektu
 Projekt ma na celu stworzenie systemu moderacji komentarzy z wykorzystaniem dwóch wzajemnie uzupełniających się modeli sztucznej inteligencji. Modele te są rozwijane przez dwóch członków zespołu i współpracują, aby poprawić jakość komunikacji w komentarzach oraz pomóc użytkownikom w formułowaniu bardziej konstruktywnych wypowiedzi.
