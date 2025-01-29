@@ -32,23 +32,20 @@ Projekt ten ma na celu dostarczenie użytkownikom wygodnego narzędzia do popraw
 
 
 
-
-
-
-
-
-
-
-
-
-to connect to application you should run two projects in webstorm which can be found by links 
+# if you want to test models with connection to application you nead :
+connect to application you should run two projects in webstorm which can be found by links 
 https://github.com/s27297/projektTFN
 https://github.com/s27297/projektTBK
  and start database on mongodb on Port 27017:27017 but this canspend a lot of time
  also you need to run script,py in this repositorium
 
-if you want to test only algoritm you can download project and run script1.py
-# To run python code you need to install 5 libriaries
+# if you want to test only algoritm you can download project and run script1.py
+# if you want to test work of algoritms together  you can download project and run script2.py
+
+#  In the following text you can find all needed actions
+
+# to run script1.py you need to do following actions
+# To run python code in scripts you need to install 5 libriaries
 # scikit-learn,nltk,pandas,flask,flask-cors
 # !pip install scikit-learn
 # !pip install nltk
@@ -73,6 +70,7 @@ precision= 0.6759259259259259
 recall= 0.5140845070422535
 accuracy= 0.6533333333333333
 
+# to run mistral.py,script.py,script2.py you need to do following actions
 # Comment Rewriter
 
 This is a simple script that interacts with the Ollama API to rewrite comments in a more polite way using the Mistral 7B model.
