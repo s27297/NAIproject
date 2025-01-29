@@ -26,8 +26,9 @@ Could (funkcje opcjonalne):
 Projekt ten ma na celu dostarczenie użytkownikom wygodnego narzędzia do poprawy komentarzy oraz pokazanie, jak dwa modele AI mogą skutecznie współpracować w rozwiązywaniu jednego zadania.
 
 ```
-# To run python code you need to install 3 libriaries
-# scikit-learn,nltk,panndas
+# To run python code you need to install 4 libriaries
+# scikit-learn,nltk,panndas,sklearn
 # !pip install scikit-learn
 # !pip install nltk
 # !pip install pandas
+# !pip install sklearn
