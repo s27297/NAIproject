@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, request
 from tdIf import classiffy_sentence
+from mistral import ask_ollama
 import requests
 app = Flask(__name__)
 
@@ -19,10 +20,10 @@ def handle_request(text):
     print("Authorization:", request.headers.get("Authorization"))
     json_req=(request.get_json())
     if(classification=="True"):
-        json_req['text']='i am cat'
+        json_req['text']=ask_ollama(text)
     response=requests.post('http://localhost:5000/posts/'+json_req['id']+'/comments', json=json_req,headers=request.headers)
     return jsonify({"message": "Hello world!", "classification": classification})
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000, debug=True)
+    app.run(host="0.0.0.0", port=8000)
