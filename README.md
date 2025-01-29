@@ -6,6 +6,15 @@ https://github.com/s27297/projektTBK
  also you need to run script,py in this repositorium
 
 if you want to test only algoritm yo can download project and run script1.py
+# To run python code you need to install 5 libriaries
+# scikit-learn,nltk,pandas,flask,flask-cors
+# !pip install scikit-learn
+# !pip install nltk
+# !pip install pandas
+# !pip install flask
+# !pip install flask-cors
+
+
 
 ```
 Opis projektu
@@ -34,10 +43,18 @@ Could (funkcje opcjonalne):
 Projekt ten ma na celu dostarczenie użytkownikom wygodnego narzędzia do poprawy komentarzy oraz pokazanie, jak dwa modele AI mogą skutecznie współpracować w rozwiązywaniu jednego zadania.
 
 ```
-# To run python code you need to install 3 libriaries
-# scikit-learn,nltk,panndas
-# !pip install scikit-learn
-# !pip install nltk
-# !pip install pandas
-# !pip install flask
-# !pip install flask-cors
+# models to classify:
+# TdIfVector:
+precision= 0.7295081967213115
+recall= 0.664179104477612
+accuracy= 0.74
+
+# word2Vec:
+precision= 0.5
+recall= 0.3829787234042553
+accuracy= 0.53
+
+# BagOfWords:
+precision= 0.6759259259259259
+recall= 0.5140845070422535
+accuracy= 0.6533333333333333
